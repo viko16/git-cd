@@ -1,12 +1,25 @@
 {
   "name": "git-cd",
   "version": "0.1.0",
+  "description": "👷 cd dir after git clone if not exist",
   "main": "index.js",
   "bin": "cli.js",
   "scripts": {
     "lint": "standard",
     "test": "npm run lint && mocha --timeout 15000"
   },
+  "files": [
+    "cli.js",
+    "index.js"
+  ],
+  "keywords": [
+    "cli",
+    "git clone",
+    "repository-management"
+  ],
+  "author": "viko16 <16viko@gmail.com>",
+  "repository": "viko16/git-cd",
+  "license": "MIT",
   "devDependencies": {
     "coffee": "^4.1.0",
     "fs-extra": "^6.0.1",

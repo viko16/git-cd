@@ -16,7 +16,7 @@ const runCd = (repo, opts) => !opts.cloneOnly && execa('ghq', [ 'look', repo ], 
 
 module.exports = (repo, opts) => {
   if (typeof repo !== 'string') return Promise.reject(new TypeError('Expected a string.'))
-  if (!which.sync('ghq', {nothrow: true})) return Promise.reject(new Error('Please install https://github.com/motemen/ghq first'))
+  if (!which.sync('ghq', { nothrow: true })) return Promise.reject(new Error('Please install https://github.com/motemen/ghq first'))
 
   return Promise.resolve(true)
     .then(() => runClone(repo, opts))

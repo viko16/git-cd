@@ -45,7 +45,7 @@ describe('hook', () => {
 
   afterEach(() => fse.emptyDir(GHQ_ROOT))
 
-  it('should execute hook file', done => {
+  it('should execute hook', done => {
     coffee.fork(bin, [ 'https://github.com/viko16/git-cd.git', ...testFlag ])
       // .debug()
       .expect('stdout', /\[test\] hook receives:/)
@@ -53,7 +53,7 @@ describe('hook', () => {
       .end(done)
   })
 
-  it('should not execute hook file', done => {
+  it('should not execute hook', done => {
     coffee.fork(bin, [ 'https://github.com/viko16/git-cd.git', '--disable-hook', ...testFlag ])
       // .debug()
       .notExpect('stdout', /\[test\] hook receives:/)
