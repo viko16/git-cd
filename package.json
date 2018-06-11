@@ -1,6 +1,6 @@
 {
   "name": "git-cd",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "👷 cd dir after git clone if not exist",
   "main": "index.js",
   "bin": "cli.js",
