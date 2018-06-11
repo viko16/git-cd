@@ -1,5 +1,10 @@
 # git-cd
 
+[![Build Status](https://img.shields.io/travis/viko16/git-cd.svg?style=flat)](https://travis-ci.org/viko16/git-cd)
+[![NPM version](https://img.shields.io/npm/v/git-cd.svg?style=flat)](https://npmjs.org/package/git-cd)
+[![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
+
+
 > 👷 cd dir after git clone if not exist
 
 
