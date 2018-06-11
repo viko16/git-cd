@@ -24,6 +24,7 @@ Set up `BASE` directory:
 $ git config --global ghq.root THE_PATH_YOU_WANT
 ```
 
+By default, the repository is cloned via SSH protocol. Or you can pass `--inherit-url` flag to disable it.
 
 
 ## Required
