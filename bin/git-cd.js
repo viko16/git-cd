@@ -2,7 +2,7 @@
 
 const meow = require('meow')
 
-const gitCd = require('.')
+const gitCd = require('../index')
 
 const cli = meow(`
   Usage

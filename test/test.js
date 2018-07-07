@@ -4,7 +4,7 @@ const assert = require('assert')
 const fse = require('fs-extra')
 const coffee = require('coffee')
 
-const bin = path.resolve(__dirname, '../cli.js')
+const bin = path.resolve(__dirname, '../bin/git-cd.js')
 const GHQ_ROOT = path.resolve(__dirname, './cloned')
 
 // Because mocha can not test extra shell..
